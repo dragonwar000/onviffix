@@ -1,4 +1,4 @@
-module github.com/dragonwar000/onviffix
+module github.com/dragonwar000/onviffix v0.0.2
 
 go 1.15
 
