@@ -14,11 +14,11 @@ import (
 	"github.com/rs/zerolog"
 
 	"github.com/beevik/etree"
+	"github.com/dragonwar000/onviffix"
+	"github.com/dragonwar000/onviffix/onviffix/gosoap"
+	"github.com/dragonwar000/onviffix/onviffix/networking"
+	wsdiscovery "github.com/dragonwar000/onviffix/onviffix/ws-discovery"
 	"github.com/gin-gonic/gin"
-	"github.com/use-go/onvif"
-	"github.com/use-go/onvif/gosoap"
-	"github.com/use-go/onvif/networking"
-	wsdiscovery "github.com/use-go/onvif/ws-discovery"
 )
 
 var (

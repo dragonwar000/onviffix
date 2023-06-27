@@ -7,9 +7,9 @@ package event
 import (
 	"context"
 	"github.com/juju/errors"
-	"github.com/use-go/onvif"
-	"github.com/use-go/onvif/sdk"
-	"github.com/use-go/onvif/event"
+	"github.com/dragonwar000/onviffix"
+	"github.com/dragonwar000/onviffix/onviffix/sdk"
+	"github.com/dragonwar000/onviffix/onviffix/event"
 )
 
 // Call_CreatePullPointSubscription forwards the call to dev.CallMethod() then parses the payload of the reply as a CreatePullPointSubscriptionResponse.

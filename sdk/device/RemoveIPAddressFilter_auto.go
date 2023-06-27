@@ -7,9 +7,9 @@ package device
 import (
 	"context"
 	"github.com/juju/errors"
-	"github.com/use-go/onvif"
-	"github.com/use-go/onvif/sdk"
-	"github.com/use-go/onvif/device"
+	"github.com/dragonwar000/onviffix"
+	"github.com/dragonwar000/onviffix/onviffix/sdk"
+	"github.com/dragonwar000/onviffix/onviffix/device"
 )
 
 // Call_RemoveIPAddressFilter forwards the call to dev.CallMethod() then parses the payload of the reply as a RemoveIPAddressFilterResponse.
